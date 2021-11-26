@@ -1,0 +1,56 @@
+Font
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Common Style or Utilities */
+body{
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+/* Header Style */
+.header-bg{
+    background-color: #264653;
+    width: 100%;
+}
+
+/*------------------
+   Featured Style
+------------------ */
+
+/* Gray Image Style */
+.gray-img-left{
+    filter: grayscale(60%);
+}
+
+.gray-img-right{
+    filter: grayscale(1);
+}
+
+.img-width{
+    width: 320px;
+    height: 300px;
+}
+
+/* Client Style */
+.client-img{
+    width: 150px;
+    height: 150px;
+}
+
+.checked{
+    color: orange;
+}
+
+/* FAQ Style */
+.faq-img{
+    width: 550px;
+    height: 400px;
+}
+
+.faq-width{
+    width: 660px;
+}
